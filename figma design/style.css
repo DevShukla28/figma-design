@@ -1,0 +1,257 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: darkblue;
+}
+header {
+  color: white;
+  position: relative;
+  height: 40px;
+  top: 53px;
+  left: 174px;
+  width: 1159px;
+  justify-content: space-between;
+  font-size: 18px;
+  display: flex;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+
+.navigation a {
+  display: inline-block;
+  width: 100px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+}
+#unique {
+  opacity: 30%;
+  margin-right: 24px;
+  font-size: 20px;
+}
+.button {
+  position: relative;
+  border-radius: 34px;
+  width: 130px;
+  left: 30px;
+  height: 45px;
+  background-color: #e93a7d;
+  color: white;
+  border: none;
+  font-size: 21px;
+}
+
+.container h1 {
+  position: relative;
+  width: 710px;
+  height: 360px;
+  top: 122px;
+  color: white;
+  left: 253px;
+  font-size: 63px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.container h5 {
+  width: 550px;
+  font-size: 25px;
+  height: 96px;
+  position: relative;
+  top: 35px;
+  color: white;
+  line-height: 35px;
+  left: 249px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.container input {
+  position: relative;
+  top: 145px;
+  left: 108px;
+  height: 50px;
+  width: 350px;
+  border-radius: 55px;
+  padding: 0px 18px;
+  background: transparent;
+  font-size: 20px;
+  line-height: 26px;
+}
+.container button {
+  position: relative;
+  top: 99px;
+  left: 243px;
+  height: 50px;
+  width: 157px;
+  margin: 4px;
+  border-radius: 38px;
+  background: #E93A7d;
+  font-size: 20px;
+  border: none;
+  color: #FFFFFF;
+}
+.container h3 {
+  position: relative;
+  top: 158px;
+  left: 173px;
+  color: grey;
+  font-size: 15px;
+}
+.section {
+  position: absolute;
+  width: 450px;
+  height: 555px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 870px;
+  top: 147px;
+}
+
+.section form h1 {
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 2px;
+  color: #1e0e62;
+ 
+}
+
+  
+  
+
+.form-box h2 {
+  font-size: 2em;
+  color: #162938;
+  text-align: center;
+}
+.input-box {
+  position: relative;
+  width: 235px;
+  height: 50px;
+  margin: 30px 0;
+  top: 11px;
+  opacity: 18%;
+  
+}
+.input-box label{
+  position: absolute;
+  top:15px;
+  left: -10px;
+  font-weight: 800;
+  font-size: 19px;
+  color:#151439;
+}
+
+
+.input-box input{
+  position: relative;
+  height: 50px;
+  width: 325px;
+  border-radius: 50px;
+  right: 41px;
+  text-align:center;
+  font-size: 18px;
+  font-weight: 600;
+  
+  
+}
+input[type='checkbox'] {
+  accent-color:hsl(173, 93%, 51%);
+  
+}
+
+
+.remember-forgot {
+  font-size: 16px;
+  margin: 0px -32px 27px;
+  opacity: 30%;
+  font-weight: 600;
+}
+
+
+.btn {
+  width: 136%;
+  color: #fff;
+  height: 50px;
+  background: #252cf5;
+  border-radius: 39px;
+  margin-left: -39px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+hr{
+  position: relative;
+  margin: 20px;
+  width: 133%;
+  opacity: 25%;
+  right: 25%;
+  border: 2px solid #b1adb8
+  
+  
+  
+  
+  
+
+}
+.primary{
+  position: absolute;
+  background: #fff;
+  width: 50px;
+  opacity: 50%;
+  top: 67%;
+  left: 44%;
+  border-radius: 40px;
+  border-style: none;
+  padding: 3px;
+  background:#fff;
+  line-height: 18px;
+  text-align: center;
+  backdrop-filter:blur(5px);
+  gap: 5px;
+  
+}
+.btn2 {
+  width: 136%;
+  color: #fff;
+  height: 50px;
+  background: #1da1f2;
+  border-radius: 39px;
+  margin-left: -39px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  opacity: 100%;
+}
+.Register p {
+  margin: 29px 0px 29px;
+  opacity: 30%;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.Register a {
+  position: absolute;
+  color: #25dac5;
+  line-height: 41px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 3px;
+  font-size: 19px;
+  font-weight: 600;
+  top: 85%;
+  left: 320px;
+}
